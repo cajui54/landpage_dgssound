@@ -13,6 +13,7 @@ const SlideImageAbout = () => {
         <nav className={styles.navAbout}>
           {navOption.map((item, index) => (
             <Image
+              key={index}
               src={item.path}
               alt={item.alt}
               onClick={() => setMove(index)}
