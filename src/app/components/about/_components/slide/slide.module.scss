@@ -1,0 +1,23 @@
+.mainSlide {
+  width: 100%;
+  display: flex;
+  img {
+    position: relative;
+    z-index: 1;
+    width: 60%;
+    height: 40rem;
+    border-radius: 0.5rem;
+  }
+}
+.navAbout {
+  margin: 0 0 2rem 2rem;
+  width: 10rem;
+  height: 30rem;
+
+  img {
+    margin: 0.5rem auto;
+    display: block;
+    width: 90%;
+    height: 10rem;
+  }
+}

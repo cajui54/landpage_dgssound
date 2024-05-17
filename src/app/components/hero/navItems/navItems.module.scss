@@ -36,6 +36,9 @@
   scroll-behavior: smooth;
   position: relative;
   padding: 0.5rem 0;
+  @media screen and (min-width: 800px) {
+    overflow: hidden;
+  }
 }
 .containerNav {
   min-width: 50rem;
