@@ -1,0 +1,29 @@
+:root {
+  font-size: 62.5%;
+  --main-color: #0a0a0a;
+  --color-yellow: #fff112;
+}
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: 0;
+}
+body {
+  background-color: var(--main-color);
+}
+button {
+  cursor: pointer;
+}
+.open div {
+  transform: translateX(-50px);
+  background-color: transparent;
+}
+.open div::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.open div::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+.moveMenu {
+  transform: translateX(70rem) !important;
+}

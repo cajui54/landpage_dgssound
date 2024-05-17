@@ -1,0 +1,41 @@
+.containerTitle {
+  width: 13rem;
+  margin-left: 0.5rem;
+  margin-top: -3rem;
+  position: relative;
+  z-index: 1;
+  > h1 {
+    background: -webkit-linear-gradient(
+        -50deg,
+        var(--main-color),
+        var(--color-yellow),
+        var(--color-yellow),
+        var(--main-color)
+      )
+      no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 100%;
+    font-family: var(--font-roboto);
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  > h2 {
+    background: -webkit-linear-gradient(
+        275deg,
+        var(--main-color),
+        #398131,
+        #398131,
+        var(--main-color)
+      )
+      no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 100%;
+
+    font-family: var(--font-oxygen);
+    transform: translateY(-0.7rem);
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
+  }
+}

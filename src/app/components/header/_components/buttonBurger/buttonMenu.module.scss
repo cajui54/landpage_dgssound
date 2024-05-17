@@ -1,0 +1,41 @@
+.menu {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  @media screen and (min-width: 750px) {
+    display: none;
+  }
+
+  > div {
+    width: 5.5rem;
+    height: 0.6rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  }
+  > div::before,
+  > div::after {
+    content: "";
+    position: absolute;
+    width: 5.5rem;
+    height: 0.6rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
+  }
+  > div::before {
+    transform: translateY(-16px);
+  }
+  > div::after {
+    transform: translateY(16px);
+  }
+}
