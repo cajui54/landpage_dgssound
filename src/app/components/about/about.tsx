@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./about.module.scss";
 import SlideImageAbout from "./_components/slide/slide";
+import { FaScrewdriverWrench } from "react-icons/fa6";
 
 const AboutCompany = () => {
   return (
@@ -13,11 +14,47 @@ const AboutCompany = () => {
             <h2>Alto Falantes Automotivos</h2>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-            consequatur, adipisci eveniet magnam tenetur eligendi amet maiores
-            ratione dolores quos vero aliquam dolorum error natus asperiores,
-            cumque repellat cupiditate unde.
+            Assistência Técnica especializada em reforma de Alto Falantes
+            automotivos e profissionais
           </p>
+          <ul>
+            <li>
+              <FaScrewdriverWrench />
+              Centralização de Imãs Drive
+            </li>
+            <li>
+              <FaScrewdriverWrench />
+              Centralização de Twitter
+            </li>
+            <li>
+              <FaScrewdriverWrench />
+              Troca de Cordoalhas
+            </li>
+            <li>
+              <FaScrewdriverWrench />
+              Troca de Protetores
+            </li>
+            <li>
+              <FaScrewdriverWrench />
+              Troca de Cones
+            </li>
+            <li>
+              <FaScrewdriverWrench />
+              Hidratação de Bordas e cones
+            </li>
+            <li>
+              <FaScrewdriverWrench />
+              Troca e Reparos de Driver
+            </li>
+            <li>
+              <FaScrewdriverWrench />
+              Troca e Reparos de Twitter
+            </li>
+            <li>
+              <FaScrewdriverWrench />
+              Acessórios de Alto Falantes em Gerais
+            </li>
+          </ul>
         </article>
       </div>
     </div>

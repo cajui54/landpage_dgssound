@@ -20,10 +20,29 @@
     color: #fff;
     width: 90%;
     margin: 0 auto;
+
+    ul li {
+      font-size: 1.5rem;
+      margin: 1.5rem 0;
+      font-family: var(--font-roboto);
+      padding: 1rem;
+      width: 95%;
+      border-radius: 5rem;
+    }
+    ul li svg {
+      margin-right: 1rem;
+      color: var(--color-yellow);
+    }
+    ul li:nth-child(odd) {
+      background-color: #0f172a;
+    }
+    ul li:nth-child(even) {
+      background-color: #2563eb;
+    }
   }
   article p {
     padding: 0.5rem 1rem;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     line-height: 2.8rem;
     letter-spacing: 0.2rem;
     font-family: var(--font-roboto);
