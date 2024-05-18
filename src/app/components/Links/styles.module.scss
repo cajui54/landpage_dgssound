@@ -1,0 +1,19 @@
+.mainButtonWhats {
+  display: block;
+  width: 70%;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #24c552;
+  text-decoration: none;
+  color: #24c552;
+  margin: 5rem auto;
+  border-radius: 5rem;
+  font-size: 2rem;
+  font-family: var(--font-roboto);
+  svg {
+    margin: 0 1rem;
+    transform: scale(1.1);
+    background-color: #fff;
+    border-radius: 0.5rem;
+  }
+}

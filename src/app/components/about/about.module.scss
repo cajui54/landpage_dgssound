@@ -28,16 +28,15 @@
       padding: 1rem;
       width: 95%;
       border-radius: 5rem;
+      border: 1px solid #64748b;
+      background-color: #020617;
     }
     ul li svg {
       margin-right: 1rem;
       color: var(--color-yellow);
     }
-    ul li:nth-child(odd) {
-      background-color: #0f172a;
-    }
-    ul li:nth-child(even) {
-      background-color: #2563eb;
+    ul li:last-child {
+      font-size: 1.2rem;
     }
   }
   article p {

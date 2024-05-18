@@ -6,7 +6,8 @@ import { MenuContextProvider } from "./context/contextMenu";
 
 export const metadata: Metadata = {
   title: "DGS Sound Alto Falantes Automotivo",
-  description: "DGS Sound é uma assistência técnica de alto falantes",
+  description:
+    "DGS Sound é  Assistência Técnica especializada em reforma de Alto Falantes automotivos e profissionais",
   keywords:
     "alto, falantes, automotivos, recondicionamento, assistência, som, áudio, música  ",
   icons: {

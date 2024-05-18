@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./about.module.scss";
 import SlideImageAbout from "./_components/slide/slide";
 import { FaScrewdriverWrench } from "react-icons/fa6";
+import ButtonWhats from "../Links/ButtonWhats";
 
 const AboutCompany = () => {
   return (
@@ -55,6 +56,7 @@ const AboutCompany = () => {
               Acessórios de Alto Falantes em Gerais
             </li>
           </ul>
+          <ButtonWhats />
         </article>
       </div>
     </div>
