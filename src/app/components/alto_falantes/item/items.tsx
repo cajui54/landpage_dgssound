@@ -5,9 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { links } from "@/app/assets/links";
 import ButtonWhats from "../../Links/ButtonWhats";
-const Item = ({ path, title, description, index }: IPropsItem) => {
+const Item = ({ path, title, description }: IPropsItem) => {
   return (
-    <div className={styles.mainItem} key={index}>
+    <div className={styles.mainItem}>
       <Link
         href={links.whats}
         target="_blank"

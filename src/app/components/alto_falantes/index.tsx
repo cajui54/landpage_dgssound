@@ -11,8 +11,11 @@ const AltoFalantes = () => {
 
       <div className={styles.itemsContainer}>
         {falanteData.map((data, index) => {
-          const value = { ...data, index };
-          return <Items {...value} />;
+          return (
+            <div key={index}>
+              <Items {...data} />
+            </div>
+          );
         })}
       </div>
     </div>
