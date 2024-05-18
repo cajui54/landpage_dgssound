@@ -11,7 +11,7 @@ const AboutCompany = () => {
         <SlideImageAbout />
         <article>
           <div className={styles.titles}>
-            <h3>DSG SOUND</h3>
+            <h3>DGS SOUND</h3>
             <h2>Alto Falantes Automotivos</h2>
           </div>
           <p>
