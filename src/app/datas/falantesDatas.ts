@@ -21,25 +21,130 @@ import img21 from "../assets/images/falantes/falante20.jpg";
 import img22 from "../assets/images/falantes/falante21.jpg";
 import { IPropsItem } from "../interface/Items";
 export const falanteData: IPropsItem[] = [
-  { path: img01, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img02, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img03, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img04, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img05, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img06, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img07, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img08, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img09, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img10, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img11, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img12, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img13, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img14, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img15, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img16, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img17, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img19, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img20, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img21, title: "Alto Falante", description: "dmklnmdaklnd " },
-  { path: img22, title: "Alto Falante", description: "dmklnmdaklnd " },
+  {
+    path: img01,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img02,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img03,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img04,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img05,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img06,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img07,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img08,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img09,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img10,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img11,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img12,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img13,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img14,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img15,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img16,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img17,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img19,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img20,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img21,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
+  {
+    path: img22,
+    title: "Alto Falante",
+    description:
+      "Sons Automotivos; Trabalhamos com Médio Grave, Woofer e Subwoofer; Alto Falantes Novos e Recondicio",
+  },
 ];

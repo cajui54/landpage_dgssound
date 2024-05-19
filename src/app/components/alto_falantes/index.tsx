@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import { falanteData } from "@/app/datas/falantesDatas";
+import img01 from "../../assets/images/falantes/falante01.jpg";
 import Items from "./item/items";
 const AltoFalantes = () => {
   return (
@@ -17,6 +18,10 @@ const AltoFalantes = () => {
             </div>
           );
         })}
+      </div>
+      <div className={styles.paralax}>
+        <div></div>
+        <div></div>
       </div>
     </div>
   );

@@ -14,7 +14,6 @@ const Item = ({ path, title, description }: IPropsItem) => {
         className={styles.containerImage}
       >
         <Image src={path} alt={title} />
-        <div></div>
       </Link>
       <h2>{title}</h2>
       <p>{description}</p>

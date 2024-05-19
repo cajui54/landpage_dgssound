@@ -4,5 +4,4 @@ export interface IPropsItem {
   path: StaticImageData;
   title: string;
   description: string;
-  index?: number;
 }
