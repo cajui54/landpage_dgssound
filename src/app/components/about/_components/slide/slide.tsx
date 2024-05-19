@@ -4,7 +4,7 @@ import styles from "./slide.module.scss";
 import { navOption } from "@/app/assets/images";
 import Image from "next/image";
 const SlideImageAbout = () => {
-  const [move, setMove] = useState<number>(1);
+  const [move, setMove] = useState<number>(0);
   return (
     <div>
       <div className={styles.mainSlide}>

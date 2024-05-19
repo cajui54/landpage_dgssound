@@ -4,7 +4,7 @@ import styles from "./slideshow.module.scss";
 import Image from "next/image";
 import { images } from "./config/datas";
 const Slideshow = () => {
-  const [index, setIndex] = useState<number>(0);
+  const [index, setIndex] = useState<number>(1);
 
   /*setTimeout(() => {
     if (index < images.length - 1) {
