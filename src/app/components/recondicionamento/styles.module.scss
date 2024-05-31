@@ -1,0 +1,46 @@
+.mainRecondicionamento {
+  color: #fff;
+  min-height: 100vh;
+  position: relative;
+  padding: 3rem 0;
+}
+.containerTitle {
+  background-image: url("../../assets/images/carro.jpg");
+  background-size: 20rem 50rem;
+  background-attachment: fixed;
+  background-position: 10rem 1rem;
+  position: relative;
+  display: flex;
+  align-items: self-end;
+  width: 90%;
+  min-height: 9rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  h2 {
+    width: 100%;
+    font-size: 2rem;
+    font-family: var(--font-roboto);
+    color: var(--color-yellow);
+    background: linear-gradient(45deg, #0a0a0a 35%, transparent);
+    position: relative;
+  }
+  svg {
+    font-size: 9rem;
+    margin-right: 1rem;
+  }
+  h2 span {
+    position: absolute;
+    left: 8rem;
+    bottom: 1rem;
+    color: #fff;
+    transform: scale(1.5);
+    text-shadow: 0 0 5px var(--secundary-color);
+  }
+}
+.containerCard {
+  background-image: radial-gradient(transparent, #0a0a0a 60%),
+    url("../../assets/images/falantesbg.jpg");
+  background-size: contain;
+}

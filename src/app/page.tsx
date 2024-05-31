@@ -4,6 +4,7 @@ import Hero from "./components/hero/hero";
 import AboutCompany from "./components/about/about";
 import AltoFalantes from "./components/alto_falantes";
 import Acessorios from "./components/acessorios";
+import Recondicionamento from "./components/recondicionamento/Recondicionamento";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutCompany />
       <AltoFalantes />
       <Acessorios />
+      <Recondicionamento />
     </main>
   );
 }
