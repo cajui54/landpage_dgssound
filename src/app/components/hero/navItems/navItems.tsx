@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./navItems.module.scss";
-import { Link, animateScroll as scroll, scrollSpy } from "react-scroll";
+import { Link } from "react-scroll";
 import Image from "next/image";
 import imgFalante from "../../../assets/images/falante01.jpg";
 import imgFix from "../../../assets/images/reforma01.jpg";
