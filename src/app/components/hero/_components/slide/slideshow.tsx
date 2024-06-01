@@ -6,14 +6,14 @@ import { images } from "./config/datas";
 const Slideshow = () => {
   const [index, setIndex] = useState<number>(1);
 
-  /*setTimeout(() => {
+  setTimeout(() => {
     if (index < images.length - 1) {
       setIndex(index + 1);
       console.log(index);
     } else {
       setIndex(0);
     }
-  }, 5000);*/
+  }, 5000);
 
   return (
     <div className={styles.mainSlide}>

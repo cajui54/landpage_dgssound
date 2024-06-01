@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 
 const ContactMe = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000, easing: "ease-in-back" });
   }, []);
   return (
     <div className={styles.mainContact} id="scrollContact">
