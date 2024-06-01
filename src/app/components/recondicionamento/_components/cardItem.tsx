@@ -4,13 +4,14 @@ import Image from "next/image";
 import { TiArrowDownOutline } from "react-icons/ti";
 import logoDGS from "../../../assets/images/dgslogo.png";
 import { IRecond } from "@/app/interface/Recondi";
+import ImagesItem from "./ImagesItem";
 
 const CardItem = ({ imgA, imgB, about }: IRecond) => {
   return (
     <div className={styles.mainCard}>
       <div className={styles.containerBefore}>
         <div className={styles.containerImage}>
-          <Image src={imgB} alt={about} />
+          <ImagesItem image={imgB} about={about} />
         </div>
         <h3>
           <TiArrowDownOutline /> Antes
@@ -19,7 +20,7 @@ const CardItem = ({ imgA, imgB, about }: IRecond) => {
 
       <div className={styles.containerBefore}>
         <div className={styles.containerImage}>
-          <Image src={imgA} alt={about} />
+          <ImagesItem image={imgA} about={about} />
         </div>
         <h3>
           <Image className={styles.imgLogo} src={logoDGS} alt="logo dgssound" />

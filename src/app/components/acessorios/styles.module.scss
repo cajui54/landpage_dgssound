@@ -10,6 +10,9 @@
     margin: 1rem auto;
     padding: 1rem 0;
   }
+  @media screen and (min-width: 800px) {
+    width: 70rem;
+  }
 }
 .containerSlide {
   width: 98%;
@@ -45,6 +48,11 @@
     height: 30rem;
     border-radius: 0.5rem;
   }
+  @media screen and (min-width: 800px) {
+    img {
+      height: 40rem;
+    }
+  }
 }
 .descriptionContainer {
   h2 {
@@ -57,5 +65,10 @@
     font-size: 1.5rem;
     width: 90%;
     margin: 1rem auto;
+  }
+  @media screen and (min-width: 800px) {
+    p {
+      text-align: center;
+    }
   }
 }

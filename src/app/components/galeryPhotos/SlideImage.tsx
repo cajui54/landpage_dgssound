@@ -19,22 +19,26 @@ const SlideImage = () => {
     <div className={styles.mainGalery} id="scrollGalery">
       <h6>Confira nosso Trabalho:</h6>
 
-      <div className={styles.containerImage}>
-        <Image src={arrImages[index]} alt="carros com alto falantes" />
-      </div>
-      <div className={styles.containerMenu}>
-        <button onClick={handleNext}>
-          <FaArrowCircleLeft />
-        </button>
-        <div className={styles.containerOpitons}>
-          {arrImages.map((img, index) => (
-            <Image
-              key={index}
-              src={img}
-              alt="carros e alto falantes"
-              onClick={() => setIndex(index)}
-            />
-          ))}
+      <div className={styles.containerSlide}>
+        <div className={styles.containerImage}>
+          <Image src={arrImages[index]} alt="carros com alto falantes" />
+        </div>
+
+        <div className={styles.containerMenu}>
+          <button onClick={handleNext}>
+            <FaArrowCircleLeft />
+          </button>
+
+          <div className={styles.containerOpitons}>
+            {arrImages.map((img, index) => (
+              <Image
+                key={index}
+                src={img}
+                alt="carros e alto falantes"
+                onClick={() => setIndex(index)}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

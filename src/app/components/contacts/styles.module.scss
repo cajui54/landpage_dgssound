@@ -2,6 +2,7 @@
   position: relative;
   min-height: 100vh;
   overflow: hidden;
+
   h2 {
     color: var(--color-yellow);
     font-family: var(--font-oxygen);
@@ -9,14 +10,24 @@
     margin: 1rem auto;
     font-size: 3rem;
   }
+  @media screen and (min-width: 800px) {
+    margin-top: 15rem;
+  }
 }
 .containerMap {
   width: 90%;
   height: 20rem;
   margin: 1rem auto;
-  background: url("../../assets/images/gameleiraCity.jpg");
+  background: linear-gradient(to top, #0a0a0a, transparent 90%),
+    url("../../assets/images/gameleiraCity.jpg");
   background-size: cover;
   border-radius: 0.1rem;
+  @media screen and (min-width: 800px) {
+    margin-left: 5rem;
+    width: 70rem;
+    height: 40rem;
+    border-radius: 0.5rem;
+  }
 }
 .listInfo {
   li {
@@ -38,5 +49,9 @@
     text-decoration: none;
     color: #4ade80;
     font-weight: bold;
+  }
+  @media screen and (min-width: 800px) {
+    width: 60rem;
+    margin-left: 7rem;
   }
 }

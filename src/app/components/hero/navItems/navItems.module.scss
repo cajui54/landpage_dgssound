@@ -26,6 +26,12 @@
     top: 3rem;
     right: 0;
   }
+  @media screen and (min-width: 800px) {
+    width: 100%;
+    button {
+      display: none;
+    }
+  }
 }
 .mainNav {
   width: 95%;
@@ -36,7 +42,13 @@
   scroll-behavior: smooth;
   position: relative;
   padding: 0.5rem 0;
+
   @media screen and (min-width: 800px) {
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-image: linear-gradient(to top, #0a0a0a, #0a0a0a, transparent);
     overflow: hidden;
   }
 }

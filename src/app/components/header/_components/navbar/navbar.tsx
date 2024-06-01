@@ -90,7 +90,7 @@ const Navbar = () => {
         duration={500}
         onClick={handleCloseMenu}
       >
-        <span>Sobre DGS</span>
+        <span>Serviços DGS</span>
         <div></div>
       </Link>
       <Link

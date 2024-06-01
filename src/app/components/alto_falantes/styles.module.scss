@@ -27,11 +27,19 @@
 
     color: #fff;
   }
+  @media screen and (min-width: 800px) {
+    width: 70rem;
+  }
 }
 .itemsContainer {
   min-height: 100vh;
   width: 99%;
   margin: 5rem auto;
+  @media screen and (min-width: 800px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+  }
 }
 .paralax {
   height: 20rem;
@@ -55,5 +63,10 @@
   div:last-child {
     bottom: 0;
     background: linear-gradient(to top, var(--main-color) 30%, transparent);
+  }
+  @media screen and (min-width: 800px) {
+    background-size: 50rem;
+    background-repeat: repeat;
+    width: 100%;
   }
 }

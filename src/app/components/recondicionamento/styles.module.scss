@@ -43,4 +43,9 @@
   background-image: radial-gradient(transparent, #0a0a0a 60%),
     url("../../assets/images/falantesbg.jpg");
   background-size: contain;
+
+  @media screen and (min-width: 800px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

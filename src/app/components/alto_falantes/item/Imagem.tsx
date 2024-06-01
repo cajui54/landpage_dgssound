@@ -9,7 +9,7 @@ interface Props {
 }
 const ImagemContainer = ({ path, title }: Props) => {
   useEffect(() => {
-    AOS.init({ duration: 2000, easing: "ease-in-out-quart" });
+    AOS.init({ duration: 1000, easing: "ease-in-out-quart" });
   }, []);
   return <Image src={path} alt={title} data-aos="fade-up" />;
 };
