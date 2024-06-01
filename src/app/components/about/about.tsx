@@ -15,8 +15,8 @@ const AboutCompany = () => {
             <h2>Alto Falantes Automotivos</h2>
           </div>
           <p>
-            Assistência Técnica especializada em reforma de Alto Falantes
-            automotivos e profissionais
+            Assistência Técnica especializadaAlto Falantes automotivos e
+            recondicionados, confira baixo nossos serviços;
           </p>
           <ul>
             <li>
