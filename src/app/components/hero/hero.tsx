@@ -6,7 +6,7 @@ import imgLogo from "../../assets/images/dgslogo.png";
 import NavItems from "./navItems/navItems";
 const Hero = () => {
   return (
-    <div className={styles.mainHero}>
+    <div className={styles.mainHero} id="scrollHero">
       <Slideshow />
       <div className={styles.containerLogo}>
         <Image src={imgLogo} alt="logo DGS Sound" />

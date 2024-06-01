@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import { GiAutoRepair } from "react-icons/gi";
+import { BsFillWrenchAdjustableCircleFill } from "react-icons/bs";
 import CardItem from "./_components/cardItem";
 import { datasRecondi } from "@/app/datas/recondiDatas";
 const Recondicionamento = () => {
   return (
-    <div className={styles.mainRecondicionamento}>
+    <div className={styles.mainRecondicionamento} id="scrollRecond">
       <div className={styles.containerTitle}>
         <h2>
-          <GiAutoRepair />
+          <BsFillWrenchAdjustableCircleFill />
           <span>Recondicionamentos</span>
         </h2>
       </div>

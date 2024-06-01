@@ -28,3 +28,22 @@ button {
 .moveMenu {
   transform: translateX(70rem) !important;
 }
+.svgLocation {
+  color: red;
+}
+.svgStreet {
+  color: #67e8f9;
+}
+.svgCEP {
+  color: #fef08a;
+}
+.svgWhats {
+  color: #4ade80;
+}
+.svgEmail {
+  color: #7dd3fc;
+}
+.active {
+  color: yellow !important;
+  font-weight: bold;
+}

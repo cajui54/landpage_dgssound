@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import { TiArrowDownOutline } from "react-icons/ti";
-import { BsFillWrenchAdjustableCircleFill } from "react-icons/bs";
 import logoDGS from "../../../assets/images/dgslogo.png";
 import { IRecond } from "@/app/interface/Recondi";
 

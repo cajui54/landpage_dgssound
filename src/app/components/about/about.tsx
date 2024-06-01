@@ -6,7 +6,7 @@ import ButtonWhats from "../Links/ButtonWhats";
 
 const AboutCompany = () => {
   return (
-    <div className={styles.mainAbout}>
+    <div className={styles.mainAbout} id="scrollAbout">
       <div className={styles.articleInfo}>
         <SlideImageAbout />
         <article>

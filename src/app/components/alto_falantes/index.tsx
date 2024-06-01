@@ -5,7 +5,7 @@ import img01 from "../../assets/images/falantes/falante01.jpg";
 import Items from "./item/items";
 const AltoFalantes = () => {
   return (
-    <div className={styles.mainAltoFalantes}>
+    <div className={styles.mainAltoFalantes} id="altofalantes">
       <div className={styles.containerTitle}>
         <h2>Alto Falantes</h2>
       </div>

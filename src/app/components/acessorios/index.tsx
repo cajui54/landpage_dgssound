@@ -23,7 +23,7 @@ const Acessorios = () => {
     }
   };
   return (
-    <div className={styles.mainAcessorios}>
+    <div className={styles.mainAcessorios} id="scrollAcessorios">
       <h2>Acessórios:</h2>
       <div className={styles.containerSlide}>
         <div className={styles.slideImage}>
